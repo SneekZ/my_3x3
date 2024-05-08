@@ -56,7 +56,6 @@ while game.running:
             move = (mouseY, mouseX)
             if game.check_move(move):
                 game.move(move)
-                game.print_board()
                 if game.check_board_win():
                     game.new_game()
                     screen.fill(BG_COLOR)
