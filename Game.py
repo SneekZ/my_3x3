@@ -1,6 +1,7 @@
 import pygame
 import sys
-from GameClass import Game
+
+from game_class import Game
 
 # Инициализация Pygame
 pygame.init()
